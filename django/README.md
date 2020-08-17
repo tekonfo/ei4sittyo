@@ -52,9 +52,9 @@ MIDDLEWARE = [
 Add CORS_ORIGIN_WHITELIST to your setting (for the local-environment).(**We have already set.**)
 
 ```python
-CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/'
-)
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000'
+]
 ```
 
 
