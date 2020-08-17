@@ -62,9 +62,9 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/' #TODO: デプロイ時変更
-)
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000' #TODO: デプロイ時変更
+]
 
 ROOT_URLCONF = 'example.urls'
 
